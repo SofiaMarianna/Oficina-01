@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\portfólio\C-jovem Fullstack\Módulo 02\Oficina 01\src\style.css">
+    <title>Prefeitura de Fortaleza - Cuidados com a saúde</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <nav>
+                <img src="C:\portfólio\C-jovem Fullstack\Módulo 02\Oficina 01\img\logo-portal-prefeitura-fortaleza.png" alt="logo-portal-prefeitura-fortaleza" id="logo">
+                <ul id="menu">
+                    <li><a href="index.html">Início</li></a>
+                    <li>Sobre nós</li>
+                    <li>Sobre a cidade</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 id="titulo">A saúde começa com uma alimentação saudável</h1>
+
+        <img id="img-alimento" src="C:\portfólio\C-jovem Fullstack\Módulo 02\Oficina 01\img\foto-alimentacao.jpg" alt="prato-com-alimentos-saudaveis">
+
+        <h2 class="subtitulo">Bons Hábitos de Alimentação</h2> 
+        <ol id="lista-habitos"> 
+            <li>Coma uma variedade de alimentos</li> 
+            <li>Inclua frutas e vegetais em todas as refeições</li> 
+            <li>Prefira alimentos integrais</li> 
+            <li>Evite alimentos processados e ricos em açúcar</li> 
+            <li>Beba bastante água</li> 
+        </ol>
+
+        <h2 class="subtitulo">Calculadora de IMC para adultos</h2> 
+        <form id="imc-form"> 
+            <label for="altura">Altura (cm):</label> 
+            <input type="number" id="altura" required> 
+            <label for="peso">Peso (kg):</label> 
+            <input type="number" id="peso" required> 
+            <button type="button" id="primeirobotao" onclick="calcularIMC()">Calcular IMC</button> 
+        </form> 
+        
+        <p id="resultado-imc"></p>
+
+        <h2 class="subtitulo">Calculadora de IMC para idosos</h2> 
+        <form id="imc-form-idosos"> 
+            <label for="altura-idosos">Altura (cm):</label> 
+            <input type="number" id="altura-idosos" required> 
+            <label for="peso-idosos">Peso (kg):</label> 
+            <input type="number" id="peso-idosos" required> 
+            <button type="button" id="segundobotao" onclick="calcularIMCidosos()">Calcular IMC</button> 
+        </form> 
+        
+        <p id="resultado-imc-idosos"></p>
+
+        <script src="imc.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ffffff;
+    color: #07d4db;
+}
+html {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background: rgb(255, 255, 255);
+    max-width: 1349px;
+    margin: auto;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.unismart {
+    font-family: Teko;
+    font-size: 32px;
+    font-weight: 600;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #254e4c;
+    position: relative;
+    font-weight: 500;
+}
+#menu :hover {
+    color: #07d4db;
+}
+
+#titulo{
+    font-family: Montserrat;
+    text-align: center;
+    padding: 60px 160px 60px 250px;
+    max-width: fit-content;
+}
+
+#img-alimento{
+    width: 1200px;
+    padding: 10px 60px 60px 210px;
+}
+
+.subtitulo {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 60px 60px 60px 500px;
+    max-width: fit-content;
+}
+
+#lista-habitos{
+    display: row;
+    padding: 60px 60px 60px 490px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#primeirobotao {
+    display: grid;
+    width: 15%;
+    text-align: center;
+    background: rgb(238, 242, 243);
+    background: linear-gradient(360deg, rgb(62, 216, 216) 0%, rgb(241, 237, 241) 100%);
+    background: -moz-linear-gradient(360deg, rgb(93, 234, 239) 0%, rgb(232, 228, 233) 100%);
+    background: -webkit-linear-gradient(360deg, rgb(77, 203, 212) 0%, rgb(232, 227, 233) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ef745c", endColorstr="#34073d", GradientType=1 );
+    font-family: Inter;
+    font-size: 12px;
+    color: #000000;
+    padding: 10px 27px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 1s linear;
+}
+#primeirobotao:hover {
+    width: 250px;
+}
+
+#segundobotao {
+    display: grid;
+    width: 15%;
+    text-align: center;
+    background: rgb(238, 242, 243);
+    background: linear-gradient(360deg, rgb(62, 216, 216) 0%, rgb(241, 237, 241) 100%);
+    background: -moz-linear-gradient(360deg, rgb(93, 234, 239) 0%, rgb(232, 228, 233) 100%);
+    background: -webkit-linear-gradient(360deg, rgb(77, 203, 212) 0%, rgb(232, 227, 233) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ef745c", endColorstr="#34073d", GradientType=1 );
+    font-family: Inter;
+    font-size: 12px;
+    color: #000000;
+    padding: 10px 27px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 1s linear;
+}
+#segundobotao:hover {
+    width: 250px;
+}
+
+#imc-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px 50px 400px;
+    gap: 23px;
+    align-items: start;
+}
+input {
+    padding: 10px 60px;
+    border: 1px solid #14c2f7;
+    border-radius: 20px;
+    background: #d6cece;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+#imc-form-idosos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px 50px 400px;
+    gap: 23px;
+    align-items: start;
+}
+p {
+    display: flex;
+    padding: 30px 40px 30px 400px;
+}
